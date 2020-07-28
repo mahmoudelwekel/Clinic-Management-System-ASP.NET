@@ -11,43 +11,32 @@
 
 <asp:Content ID="Content2" ContentPlaceHolderID="Cp1" runat="server">
 
-    
-    <!------------------Styling------------------>
-    <link rel="stylesheet" href="/assets/css/grid-view.css"/>
+    <h2 class="font-weight-bold">Today's Appointments
 
+    </h2>
+    <hr />
 
-     <h1><strong style="margin:25%">Today's Appointments</strong></h1>
-    <br /><br />
-    <div style="margin-left:150px">
+    <div class="table-responsive">
 
-    <asp:GridView ID="patientsgrid" runat="server" class = "GridView-d" CellPadding="4" ForeColor="Black" GridLines="Vertical" Width="1000px"
-        EnableViewState ="False"
-        AutoGenerateSelectButton="True" 
-        OnRowCommand="patientsgrid_RowCommand" BackColor="White" BorderColor="#DEDFDE" BorderStyle="None" BorderWidth="1px">
-     
-        
+        <asp:GridView  EmptyDataText="No data available" ID="patientsgrid" runat="server"
+            CssClass="table  table-hover table-striped table-bordered dataTable text-center "
+            HorizontalAlign="Center"
+            GridLines="Vertical"
+            CellPadding="4"
+            EnableViewState="False"
+            AutoGenerateSelectButton="True"
+            OnRowCommand="patientsgrid_RowCommand">
 
-        <AlternatingRowStyle BackColor="White" />
-        <FooterStyle BackColor="#CCCC99" />
-        <HeaderStyle BackColor="#6B696B" Font-Bold="True" ForeColor="White" />
-        <PagerStyle BackColor="#F7F7DE" ForeColor="Black" HorizontalAlign="Right" />
-        <RowStyle BackColor="#F7F7DE" />
-        <SelectedRowStyle BackColor="#CE5D5A" Font-Bold="True" ForeColor="White" />
-        <SortedAscendingCellStyle BackColor="#FBFBF2" />
-        <SortedAscendingHeaderStyle BackColor="#848384" />
-        <SortedDescendingCellStyle BackColor="#EAEAD3" />
-        <SortedDescendingHeaderStyle BackColor="#575357" />
-          
-    </asp:GridView>
+            <SelectedRowStyle CssClass="table-primary" />
+            <SortedAscendingCellStyle BackColor="#FBFBF2" />
+            <SortedAscendingHeaderStyle BackColor="#848384" />
+            <SortedDescendingCellStyle BackColor="#EAEAD3" />
+            <SortedDescendingHeaderStyle BackColor="#575357" />
 
-        </div>
+        </asp:GridView>
 
-    
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
+    </div>
+
 </asp:Content>
 
 

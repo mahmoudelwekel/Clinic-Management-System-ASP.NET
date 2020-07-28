@@ -22,15 +22,6 @@ namespace DBProject {
         protected global::System.Web.UI.WebControls.Label DName;
         
         /// <summary>
-        /// DPhone control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label DPhone;
-        
-        /// <summary>
         /// DQualification control.
         /// </summary>
         /// <remarks>
@@ -49,13 +40,22 @@ namespace DBProject {
         protected global::System.Web.UI.WebControls.Label DSpecialization;
         
         /// <summary>
-        /// DWork control.
+        /// DDept control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label DWork;
+        protected global::System.Web.UI.WebControls.Label DDept;
+        
+        /// <summary>
+        /// DPhone control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label DPhone;
         
         /// <summary>
         /// DAge control.
@@ -76,15 +76,6 @@ namespace DBProject {
         protected global::System.Web.UI.WebControls.Label DGender;
         
         /// <summary>
-        /// DDept control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label DDept;
-        
-        /// <summary>
         /// DCharges control.
         /// </summary>
         /// <remarks>
@@ -92,6 +83,15 @@ namespace DBProject {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label DCharges;
+        
+        /// <summary>
+        /// formControlRange control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputGenericControl formControlRange;
         
         /// <summary>
         /// DRI control.
@@ -103,6 +103,15 @@ namespace DBProject {
         protected global::System.Web.UI.WebControls.Label DRI;
         
         /// <summary>
+        /// Range2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputGenericControl Range2;
+        
+        /// <summary>
         /// DPT control.
         /// </summary>
         /// <remarks>
@@ -110,6 +119,33 @@ namespace DBProject {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label DPT;
+        
+        /// <summary>
+        /// Range3 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputGenericControl Range3;
+        
+        /// <summary>
+        /// DWork control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label DWork;
+        
+        /// <summary>
+        /// Range4 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputGenericControl Range4;
         
         /// <summary>
         /// AppointmentB control.

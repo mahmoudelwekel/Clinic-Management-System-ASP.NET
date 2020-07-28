@@ -5,7 +5,7 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 
-<title>Patient's Home</title>
+    <title>Patient's Home</title>
 
 </asp:Content>
 
@@ -14,41 +14,64 @@
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
-    
-    <div style="background-image:url(/assets/img/backgrounds/PatientHome.jpg); background-position:center; background-size:20px">
 
-        <br />
-        <h1><strong style="margin:37%">Your Information</strong></h1>
-        <br /><br />
 
-        <div style="margin-left: 70px">
+    <h2 class="font-weight-bold">
+        <asp:Label ID="PName" runat="server" Font-Bold="true" />
 
-            <h4><strong>Name: </strong></h4>
-            <asp:Label ID="PName" runat="server" Font-Bold="true" Font-Size="Medium"></asp:Label>
-            <br /><br />
+    </h2>
+    <hr />
 
-            <h4><strong>Phone: </strong></h4>
-            <asp:Label ID="PPhone" runat="server"  Font-Bold="true" Font-Size="Medium"></asp:Label>
-            <br /><br />
 
-            <h4><strong>Birth Date: </strong></h4>
-            <asp:Label ID="PBirthDate" runat="server"  Font-Bold="true" Font-Size="Medium"></asp:Label>
-            <br /><br />
+    <%--    <h5 class="pb-1 pt-3">
 
-            <h4><strong>Age: </strong></h4>
-            <asp:Label ID="PatientAge" runat="server" Font-Bold="true" Font-Size="Medium"></asp:Label>
-            <br /><br />
+        <asp:Label ID="Label11" runat="server" Font-Bold="true" />
+    </h5>--%>
 
-            <h4><strong>Gender:</strong></h4>
-            <asp:Label ID="PGender" runat="server" Font-Bold="true" Font-Size="Medium"></asp:Label>
-            <br /><br />
+    <div class="pt-2 pb-3" style="overflow: hidden">
 
-            <h4><strong>Address: </strong></h4>
-            <asp:Label ID="PAddress" runat="server"  Font-Bold="true" Font-Size="Medium"></asp:Label>
-            <br /><br />
+        <span style="white-space: nowrap; overflow: hidden">
 
+
+            <i class="fas fa-map-marked-alt"></i>
+            <asp:Label ID="PAddress" runat="server" Font-Bold="true" />
+
+        </span>
+        &nbsp&nbsp&nbsp
+        <span style="white-space: nowrap; overflow: hidden">
+            <i class="fas fa-phone"></i>
+            <asp:Label ID="PPhone" runat="server" Font-Bold="true" />
+
+        </span>
+        &nbsp&nbsp&nbsp
+                <span style="white-space: nowrap; overflow: hidden">
+
+                    <i class="fas fa-birthday-cake"></i>
+                    <asp:Label ID="PBirthDate" runat="server" Font-Bold="true" />
+
+                </span>
+        &nbsp&nbsp&nbsp
+                <span style="white-space: nowrap; overflow: hidden">
+
+                    <i class="fas fa-venus-mars"></i>
+                    <asp:Label ID="PGender" runat="server" Font-Bold="true" />
+
+                </span>
+    </div>
+
+    <hr />
+
+    <div class="text-left">
+
+        <div class="form-group">
+            <label for="formControlRange">
+                Age :
+                <asp:Label ID="PatientAge" runat="server" Font-Bold="true" Font-Size="Medium" /></label>
+            <input type="range" class="form-control-range" disabled="disabled" id="formControlRange" runat="server" value="0" max="100" />
         </div>
 
     </div>
+
+
 
 </asp:Content>

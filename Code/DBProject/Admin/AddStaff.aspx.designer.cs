@@ -31,15 +31,6 @@ namespace DBProject {
         protected global::System.Web.UI.WebControls.Label Msg;
         
         /// <summary>
-        /// NameValidator control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator NameValidator;
-        
-        /// <summary>
         /// Name control.
         /// </summary>
         /// <remarks>
@@ -49,22 +40,13 @@ namespace DBProject {
         protected global::System.Web.UI.WebControls.TextBox Name;
         
         /// <summary>
-        /// BDateReqiured control.
+        /// NameValidator control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator BDateReqiured;
-        
-        /// <summary>
-        /// BirthDateValidator control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RegularExpressionValidator BirthDateValidator;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator NameValidator;
         
         /// <summary>
         /// BirthDate control.
@@ -76,13 +58,13 @@ namespace DBProject {
         protected global::System.Web.UI.WebControls.TextBox BirthDate;
         
         /// <summary>
-        /// RegularExpressionValidator1 control.
+        /// BDateReqiured control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RegularExpressionValidator RegularExpressionValidator1;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator BDateReqiured;
         
         /// <summary>
         /// Phone control.
@@ -94,31 +76,13 @@ namespace DBProject {
         protected global::System.Web.UI.WebControls.TextBox Phone;
         
         /// <summary>
-        /// RegularExpressionValidatorp control.
+        /// RegularExpressionValidator1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RegularExpressionValidator RegularExpressionValidatorp;
-        
-        /// <summary>
-        /// RequiredFieldValidator1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator1;
-        
-        /// <summary>
-        /// RequiredFieldValidator2 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator2;
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator RegularExpressionValidator1;
         
         /// <summary>
         /// Salary control.
@@ -130,6 +94,15 @@ namespace DBProject {
         protected global::System.Web.UI.WebControls.TextBox Salary;
         
         /// <summary>
+        /// RegularExpressionValidatorp control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator RegularExpressionValidatorp;
+        
+        /// <summary>
         /// Qual control.
         /// </summary>
         /// <remarks>
@@ -139,6 +112,15 @@ namespace DBProject {
         protected global::System.Web.UI.WebControls.TextBox Qual;
         
         /// <summary>
+        /// RequiredFieldValidator2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator2;
+        
+        /// <summary>
         /// Designation control.
         /// </summary>
         /// <remarks>
@@ -146,6 +128,15 @@ namespace DBProject {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox Designation;
+        
+        /// <summary>
+        /// RequiredFieldValidator1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator1;
         
         /// <summary>
         /// Address control.

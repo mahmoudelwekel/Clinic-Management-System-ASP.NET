@@ -71,7 +71,6 @@ namespace DBProject
 				{
 
 					Manage.DataSource = table;
-					Manage.Caption = "Other Staff Table:";
 					Manage.DataBind();
 				}
 				else
@@ -218,19 +217,20 @@ namespace DBProject
 			int workE = 0;
 			int age = 0;
 
+             
 			if (Doctor.Checked == true)
 			{
 				if(objDAL.GET_DOCTOR_PROFILE(id, ref name, ref phone, ref gender, ref charges_Per_Visit, ref ReputeIndex, ref PatientsTreated, ref qualification, ref specialization, ref workE, ref age) == 1)
 				{
 
 
-					mydiv.InnerHtml = "<p><b>Name:</b></p>" + name +  
-										" <p><b>phone:</b></p>" +phone+
-										"<p><b>gender:</b></p>" +gender+
-										"<p><b>Qualification:</b></p>" +qualification+
-										"<p><b> Age:</b></p>" +age+
-										"<p><b>Charges:</b></p> " +charges_Per_Visit+
-										"<p><b>Repute index:</b></p>"+ReputeIndex;
+					mydiv.InnerHtml = "<p><b>Name : </b>" + name + "</p>"  +
+                                        "<p><b>phone : </b>" + phone + "</p>" +
+                                        "<p><b>gender : </b>" + gender + "</p>" +
+                                        "<p><b>Qualification : </b>" + qualification + "</p>" +
+                                        "<p><b> Age : </b>" + age + "</p>"+
+										"<p><b>Charges : </b>" + charges_Per_Visit + "</p> " +
+										"<p><b>Repute index : </b>" + ReputeIndex+"</p>";
 					
 
 
@@ -253,11 +253,11 @@ namespace DBProject
 
 
 
-					mydiv.InnerHtml = "<p><b>Name:</b></p>" + name +
-										" <p><b>phone:</b></p>" + phone +
-										"<p><b>gender:</b></p>" + gender +
-										"<p><b>Address:</b></p>" + address +
-										"<p><b> Age:</b></p>" + age ;
+					mydiv.InnerHtml = "<p><b>Name : </b>" + name + "</p>"+
+										" <p><b>phone : </b>" + phone + "</p>" +
+										"<p><b>gender : </b>" + gender + "</p>" +
+										"<p><b>Address : </b>" + address + "</p>" +
+										"<p><b> Age : </b>" + age+"</p>"  ;
 					
 
 				}
@@ -279,11 +279,11 @@ namespace DBProject
 				{
 
 
-					mydiv.InnerHtml = "<p><b>Name:</b></p>" + name +
-										" <p><b>phone:</b></p>" + phone +
-										"<p><b>gender:</b></p>" + gender +
-										"<p><b>Address:</b></p>" + address +
-										"<p><b> salary:</b></p>" + s;
+					mydiv.InnerHtml = "<p><b>Name : </b>" + name + "</p>"+
+										" <p><b>phone : </b>" + phone + "</p>" +
+										"<p><b>gender : </b>" + gender + "</p>" +
+										"<p><b>Address : </b>" + address + "</p>"+ 
+										"<p><b>salary : </b>" + s+"</p>" ;
 
 
 				}

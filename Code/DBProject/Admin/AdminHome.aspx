@@ -6,89 +6,133 @@
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="head" runat="server">
+
 </asp:Content>
-
-
-
-
 
 
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
 
-    <form runat ="server">
+    <form runat="server">
 
-        
+        <h2 class="font-weight-bold">Clinic Stats</h2>
 
-
-        <br />
-        <h1 style="font-family: 'Times New Roman', Times, serif;border-radius:5px; text-decoration: underline; background-color: #CCCCCC"><strong style="margin:37%">Clinic Stats</strong></h1>
-        <br /><br />
+        <hr />
 
 
-           <div style="margin-left: 70px">
+        <div class="row row-cols-1 row-cols-md-3 ">
 
-            <h4><strong>Total Number of Regstered Doctors: </strong></h4>
-            <asp:Label ID="TotalPatients" runat="server" Font-Bold="true" Font-Size="Medium"></asp:Label>
-            <br /><br />
-               
-            <h4><strong>Total Registered Patients: </strong></h4>
-            <asp:Label ID="Total_Doctors" runat="server"  Font-Bold="true" Font-Size="Medium"></asp:Label>
-            <br /><br />
+            <div class="col mb-4">
+                <div class="card  h-100 text-white bg-dark mb-3 shadow ">
+                    <div class="row h-100 no-gutters">
+                        <div class="col-md-4 p-3 d-flex justify-content-center align-items-center">
+                            <i class="fas fa-user-md  fa-5x mw-100"></i>
+                        </div>
+                        <div class="col-md-8 d-flex justify-content-center align-items-center">
+                            <div class="card-body">
+                                <h5 class="card-title">Registered Doctors</h5>
 
-            <h4><strong>Total Income: </strong></h4>
-            <asp:Label ID="TotalIncome" runat="server"  Font-Bold="true" Font-Size="Medium"></asp:Label>
-            <br /><br />
-
-            
-        
-        <h3><strong style="margin:5%">Current Appointments</strong></h3>
-        
-        <asp:gridview ID="Appointment_view" runat="server" CellPadding="4" ForeColor="Black" GridLines="Vertical" BackColor="White" BorderColor="#DEDFDE" BorderStyle="None" BorderWidth="1px">
-            <AlternatingRowStyle BackColor="White" />
-            <FooterStyle BackColor="#CCCC99" />
-            <HeaderStyle BackColor="#6B696B" Font-Bold="True" ForeColor="White" />
-            <PagerStyle BackColor="#F7F7DE" ForeColor="Black" HorizontalAlign="Right" />
-            <RowStyle BackColor="#F7F7DE" />
-            <SelectedRowStyle BackColor="#CE5D5A" Font-Bold="True" ForeColor="White" />
-            <SortedAscendingCellStyle BackColor="#FBFBF2" />
-            <SortedAscendingHeaderStyle BackColor="#848384" />
-            <SortedDescendingCellStyle BackColor="#EAEAD3" />
-            <SortedDescendingHeaderStyle BackColor="#575357" />
-        </asp:gridview>
-    
+                                <asp:Label ID="TotalPatients" runat="server" CssClass="card-text h1 counter"></asp:Label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
 
+            <div class="col mb-4">
+                <div class="card  h-100 text-white bg-danger mb-3 shadow ">
+                    <div class="row  h-100 no-gutters">
+                        <div class="col-md-4 p-3 d-flex justify-content-center align-items-center">
+                            <i class="fas fa-user-injured  fa-5x mw-100"></i>
+                        </div>
+                        <div class="col-md-8 d-flex justify-content-center align-items-center">
+                            <div class="card-body">
+                                <h5 class="card-title">Registered Patients</h5>
 
+                                <asp:Label ID="Total_Doctors" runat="server" CssClass="card-text h1 counter"></asp:Label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-
-    </div>
-
-
-    <div style="margin:20%">
-
-        <h2><strong style="margin:20%">Department Information</strong></h2>
-
-        <asp:gridview ID="department_View" runat="server" CellPadding="4" ForeColor="Black" Height="50px" BackColor="White" BorderColor="#DEDFDE" BorderStyle="None" BorderWidth="1px" GridLines="Vertical">
-            <AlternatingRowStyle BackColor="White" />
-            <FooterStyle BackColor="#CCCC99" />
-            <HeaderStyle BackColor="#6B696B" Font-Bold="True" ForeColor="White" />
-            <PagerStyle BackColor="#F7F7DE" ForeColor="Black" HorizontalAlign="Right" />
-            <RowStyle BackColor="#F7F7DE" />
-            <SelectedRowStyle BackColor="#CE5D5A" Font-Bold="True" ForeColor="White" />
-            <SortedAscendingCellStyle BackColor="#FBFBF2" />
-            <SortedAscendingHeaderStyle BackColor="#848384" />
-            <SortedDescendingCellStyle BackColor="#EAEAD3" />
-            <SortedDescendingHeaderStyle BackColor="#575357" />
-        </asp:gridview>
-
+            <div class="col mb-4">
+                <div class="card  h-100 text-white bg-success mb-3 shadow ">
+                    <div class="row  h-100 no-gutters">
+                        <div class="col-md-4 p-3 d-flex justify-content-center align-items-center">
+                            <i class="fas fa-hand-holding-usd  fa-5x mw-100"></i>
+                        </div>
+                        <div class="col-md-8 d-flex justify-content-center align-items-center">
+                            <div class="card-body">
+                                <h5 class="card-title">Total Income</h5>
+                                <asp:Label ID="TotalIncome" runat="server" CssClass="card-text h1 counter"></asp:Label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
         </div>
 
 
 
+        <div class="row row-cols-1 row-cols-md-2">
+            <div class="col mb-4">
+                <div class="card text-white bg-secondary  shadow ">
+                    <div class="card-header h5 font-weight-bold">
+                        Current Appointments
+                    </div>
+                    <div class="list-group text-dark  list-group-flush top-count-list">
+                        <asp:Repeater ID="Appointment_view" runat="server">
+                            <ItemTemplate>
+                                <div class="list-group-item list-group-item-action text-left ">
+                                    <div class="d-flex w-100 justify-content-between">
+                                        <h4 class="mb-1"><%# Eval("Name") %></h4>
+                                        <small>Patient <%# Eval("PatientID") %></small>
+                                    </div>
+                                    <p class="mb-1">
+                                        <%# Eval("Date") %>
+                                    </small>
+                                </div>
+                            </ItemTemplate>
+                        </asp:Repeater>
+                    </div>
+                </div>
 
-       
+            </div>
 
-        </form>
+            <div class="col mb-4">
+
+                <div class="card text-white bg-secondary  shadow ">
+                    <div class="card-header h5 font-weight-bold">
+                        Department Information                   
+                    </div>
+                    <div class="list-group text-dark list-group-flush top-count-list">
+
+                        <asp:Repeater ID="department_View" runat="server">
+                            <ItemTemplate>
+                                <div class="list-group-item list-group-item-action text-left ">
+                                    <div class="d-flex w-100 justify-content-between">
+                                        <h4 class="mb-1"><%# Eval("Name") %></h4>
+                                        <small><%# Eval("Number of Doctors") %> doctor</small>
+                                    </div>
+                                    <p class="mb-1" style="white-space: nowrap;overflow: hidden;" title="<%# Eval("Description") %>">
+                                        <%# Eval("Description") %>
+                                    </small>
+                                </div>
+                            </ItemTemplate>
+                        </asp:Repeater>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+
+
+    </form>
 </asp:Content>

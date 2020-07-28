@@ -57,13 +57,21 @@ namespace DBProject
                 DPhone.Text = phone;
                 DQualification.Text = qualification;
                 DSpecialization.Text = specialization;
-                DWork.Text = workE.ToString();
                 DAge.Text = age.ToString();
                 DGender.Text = gender;
                 DDept.Text = deptName;
                 DCharges.Text = charges_Per_Visit.ToString();
-                DRI.Text = ReputeIndex.ToString(); 
+                formControlRange.Value = charges_Per_Visit.ToString();
+
+                DRI.Text = ReputeIndex.ToString();
+                Range2.Value = ReputeIndex.ToString();
+
                 DPT.Text = PatientsTreated.ToString();
+                Range3.Value = PatientsTreated.ToString();
+
+                DWork.Text = workE.ToString();
+                Range4.Value = workE.ToString();
+
             }
 
             return;

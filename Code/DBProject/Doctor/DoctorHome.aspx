@@ -4,7 +4,7 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 
-<title>Doctor's Home</title>
+    <title>Doctor's Home</title>
 
 </asp:Content>
 
@@ -13,31 +13,102 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="Cp1" runat="server">
 
 
-    <div style="background-image:url(/assets/img/backgrounds/PatientHome.jpg); background-position:center; background-size:20px; margin-left:50px">
 
-            <h1>Your Profile</h1>
-             <br />        
-            <h3>Name:       <asp:label id="Label1" runat="server"   Font-Bold="true" Font-Size="Medium"  /><br /><br /> </h3>   
-            <h4>Phone:      <asp:label id="Label2" runat="server"   Font-Bold="true" Font-Size="Medium"  />&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Address: <asp:label id="Label3" runat="server" Font-Bold="true" Font-Size="Medium"   />  </h4>
-             <br />
-            <h4> BirthDate:   <asp:label id="Label4" runat="server"  Font-Bold="true" Font-Size="Medium" /></h4>
 
-            <br />
-            <br />
-            <h4>Gender:  <asp:label id="Label5" runat="server"   Font-Bold="true" Font-Size="Medium"  />&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  Department No: <asp:label id="Label6" runat="server"   Font-Bold="true" Font-Size="Medium"  /></h4>
+    <h2 class="font-weight-bold">
+        <asp:Label ID="Label1" runat="server" Font-Bold="true" />
 
-            <br />
-            <br />
-           <h4>Charges Per Visit: <asp:label id="Label7" runat="server"   Font-Bold="true" Font-Size="Medium"  />&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  Monthly Salary: <asp:label id="Label8" runat="server"   Font-Bold="true" Font-Size="Medium"  /></h4>
-            <br />
-            <br />
-           <h4>Repute Index: <asp:label id="Label9" runat="server"   Font-Bold="true" Font-Size="Medium"  />&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp  Patients Treated: <asp:label id="Label10" runat="server"   Font-Bold="true" Font-Size="Medium"  /></h4>
-            <br />
-             <br />
-          
-            <h4>Qualification: <asp:label id="Label11" runat="server"   Font-Bold="true" Font-Size="Medium"  /> <br /><br /> Specialization: <asp:label id="Label12" runat="server"   Font-Bold="true" Font-Size="Medium"  />&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp </h4>
-            <h4>Work Experience: <asp:label id="Label13" runat="server"   Font-Bold="true" Font-Size="Medium"  />&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  Status: <asp:label id="Label14" runat="server"   Font-Bold="true" Font-Size="Medium"  /></h4>
-            <br />
-</div>    
-        
-    </asp:Content>
+    </h2>
+    <hr />
+
+
+    <h5 class="pb-1 pt-3">
+
+        <asp:Label ID="Label11" runat="server" Font-Bold="true" />
+    </h5>
+
+    <div class="pt-2 pb-3" style="overflow: hidden">
+
+        <span style="white-space: nowrap; overflow: hidden">
+
+
+            <i class="fas fa-map-marked-alt"></i>
+            <asp:Label ID="Label3" runat="server" Font-Bold="true" />
+            ,Specialization:
+            
+                    <asp:Label ID="Label12" runat="server" Font-Bold="true" />
+        </span>
+        &nbsp&nbsp&nbsp
+                <span style="white-space: nowrap; overflow: hidden">
+
+                    <i class="fas fa-hospital-alt"></i>
+                    Department 
+        <asp:Label ID="Label6" runat="server" Font-Bold="true" />
+                </span>
+        &nbsp&nbsp&nbsp
+        <span style="white-space: nowrap; overflow: hidden">
+            <i class="fas fa-phone"></i>
+            <asp:Label ID="Label2" runat="server" Font-Bold="true" />
+
+        </span>
+        &nbsp&nbsp&nbsp
+                <span style="white-space: nowrap; overflow: hidden">
+
+                    <i class="fas fa-birthday-cake"></i>
+                    <asp:Label ID="Label4" runat="server" Font-Bold="true" />
+
+                </span>
+        &nbsp&nbsp&nbsp
+                <span style="white-space: nowrap; overflow: hidden">
+
+                    <i class="fas fa-venus-mars"></i>
+                    <asp:Label ID="Label5" runat="server" Font-Bold="true" />
+
+                </span>
+    </div>
+
+    <hr />
+
+    <div class="text-left">
+
+        <div class="form-group">
+            <label for="formControlRange">
+                Charges Per Visit :
+                <asp:Label ID="Label7" runat="server" Font-Bold="true" Font-Size="Medium" /></label>
+            <input type="range" class="form-control-range" disabled="disabled"  id="formControlRange" runat="server" value="0" max="100000" />
+        </div>
+        <div class="form-group">
+            <label for="formControlRange">
+                Monthly Salary :
+                <asp:Label ID="Label8" runat="server" Font-Bold="true" Font-Size="Medium" /></label>
+            <input type="range" class="form-control-range" disabled="disabled" id="Range1" runat="server" value="0" max="100000" />
+        </div>
+        <div class="form-group">
+            <label for="formControlRange">
+                Repute Index :
+                <asp:Label ID="Label9" runat="server" Font-Bold="true" Font-Size="Medium" /></label>
+            <input type="range" class="form-control-range" disabled="disabled" id="Range2" runat="server" value="0" max="5" />
+        </div>
+        <div class="form-group">
+            <label for="formControlRange">
+                Patients Treated :
+                <asp:Label ID="Label10" runat="server" Font-Bold="true" Font-Size="Medium" /></label>
+            <input type="range" class="form-control-range" disabled="disabled" id="Range3" runat="server" value="0" max="10000" />
+        </div>
+        <div class="form-group">
+            <label for="formControlRange">
+                Work Experience :
+                <asp:Label ID="Label13" runat="server" Font-Bold="true" Font-Size="Medium" /></label>
+            <input type="range" class="form-control-range" disabled="disabled" id="Range4" runat="server" value="0" max="10" />
+        </div>
+        <div class="form-group">
+            <label for="formControlRange">
+                Status :
+                <asp:Label ID="Label14" runat="server" Font-Bold="true" Font-Size="Medium" /></label>
+            <input type="range" class="form-control-range" disabled="disabled" id="Range5" runat="server" value="0" max="10" />
+        </div>
+
+    </div>
+
+
+</asp:Content>

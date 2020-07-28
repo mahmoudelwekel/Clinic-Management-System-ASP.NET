@@ -2,7 +2,7 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 
-<title>Doctor's Profile</title>
+    <title>Doctor's Profile</title>
 
 </asp:Content>
 
@@ -12,66 +12,98 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
 
-    <!------------------Styling------------------>
-    <link rel="stylesheet" href="/assets/css/grid-view.css"/>
 
-    
-    <div style="background-image:url(/assets/img/backgrounds/PatientHome.jpg); background-position:center; background-size:20px">
 
-        <br />
-        <h1><strong style="margin:37%">Doctor's Profile</strong></h1>
-        <br /><br />
+    <h2 class="font-weight-bold">
+        <asp:Label ID="DName" runat="server" Font-Bold="true" />
 
-        <div style="margin-left: 70px">
+    </h2>
+    <hr />
 
-            <h4><strong>Name: </strong></h4>
-            <asp:Label ID="DName" runat="server" Font-Bold="true" Font-Size="Medium"></asp:Label>
-            <br /><br />
 
-            <h4><strong>Phone: </strong></h4>
-            <asp:Label ID="DPhone" runat="server"  Font-Bold="true" Font-Size="Medium"></asp:Label>
-            <br /><br />
+    <h5 class="pb-1 pt-3">
 
-            <h4><strong>Qualification:</strong></h4>
-            <asp:Label ID="DQualification" runat="server" Font-Bold="true" Font-Size="Medium"></asp:Label>
-            <br /><br />
+        <asp:Label ID="DQualification" runat="server" Font-Bold="true" />
+    </h5>
 
-            <h4><strong>Specialization:</strong></h4>
-            <asp:Label ID="DSpecialization" runat="server" Font-Bold="true" Font-Size="Medium"></asp:Label>
-            <br /><br />
+    <div class="pt-2 pb-3" style="overflow: hidden">
 
-            <h4><strong>Work Experience:</strong></h4>
-            <asp:Label ID="DWork" runat="server" Font-Bold="true" Font-Size="Medium"></asp:Label>
-            <br /><br />
+        <span style="white-space: nowrap; overflow: hidden">
 
-            <h4><strong>Age: </strong></h4>
-            <asp:Label ID="DAge" runat="server" Font-Bold="true" Font-Size="Medium"></asp:Label>
-            <br /><br />
 
-            <h4><strong>Gender:</strong></h4>
-            <asp:Label ID="DGender" runat="server" Font-Bold="true" Font-Size="Medium"></asp:Label>
-            <br /><br />
+            <i class="fas fa-map-marked-alt"></i>
+            Specialization:
+            
+                    <asp:Label ID="DSpecialization" runat="server" Font-Bold="true" />
+        </span>
+        &nbsp&nbsp&nbsp
+                <span style="white-space: nowrap; overflow: hidden">
 
-            <h4><strong>Department:</strong></h4>
-            <asp:Label ID="DDept" runat="server" Font-Bold="true" Font-Size="Medium"></asp:Label>
-            <br /><br />
+                    <i class="fas fa-hospital-alt"></i>
+                    Department: 
+        <asp:Label ID="DDept" runat="server" Font-Bold="true" />
+                </span>
+        &nbsp&nbsp&nbsp
+        <span style="white-space: nowrap; overflow: hidden">
+            <i class="fas fa-phone"></i>
+            <asp:Label ID="DPhone" runat="server" Font-Bold="true" />
 
-            <h4><strong>Charges Per Appointment:</strong></h4>
-            <asp:Label ID="DCharges" runat="server" Font-Bold="true" Font-Size="Medium"></asp:Label>
-            <br /><br />
+        </span>
+        &nbsp&nbsp&nbsp
+                <span style="white-space: nowrap; overflow: hidden">
 
-            <h4><strong>Repute Index:</strong></h4>
-            <asp:Label ID="DRI" runat="server" Font-Bold="true" Font-Size="Medium"></asp:Label>
-            <br /><br />
+                    <i class="fas fa-birthday-cake"></i>
+                    <asp:Label ID="DAge" runat="server" Font-Bold="true" />
+                    years old
 
-            <h4><strong>Number of Patients Treated:</strong></h4>
-            <asp:Label ID="DPT" runat="server" Font-Bold="true" Font-Size="Medium"></asp:Label>
-            <br /><br />
+                </span>
+        &nbsp&nbsp&nbsp
+                <span style="white-space: nowrap; overflow: hidden">
 
-            <asp:Button ID="AppointmentB" runat="server" Text="Take Appointment" OnClick="RedirectToAppointmentTaker" Font-Bold="true"  />
+                    <i class="fas fa-venus-mars"></i>
+                    <asp:Label ID="DGender" runat="server" Font-Bold="true" />
 
+                </span>
+    </div>
+
+    <hr />
+
+    <div class="text-left">
+
+        <div class="form-group">
+            <label for="formControlRange">
+                Charges Per Visit :
+                <asp:Label ID="DCharges" runat="server" Font-Bold="true" Font-Size="Medium" /></label>
+            <input type="range" class="form-control-range" disabled="disabled" id="formControlRange" runat="server" value="0" max="100000" />
         </div>
 
+        <div class="form-group">
+            <label for="formControlRange">
+                Repute Index :
+                <asp:Label ID="DRI" runat="server" Font-Bold="true" Font-Size="Medium" /></label>
+            <input type="range" class="form-control-range" disabled="disabled" id="Range2" runat="server" value="0" max="5" />
+        </div>
+        <div class="form-group">
+            <label for="formControlRange">
+                Patients Treated :
+                <asp:Label ID="DPT" runat="server" Font-Bold="true" Font-Size="Medium" /></label>
+            <input type="range" class="form-control-range" disabled="disabled" id="Range3" runat="server" value="0" max="10000" />
+        </div>
+        <div class="form-group">
+            <label for="formControlRange">
+                Work Experience :
+                <asp:Label ID="DWork" runat="server" Font-Bold="true" Font-Size="Medium" /></label>
+            <input type="range" class="form-control-range" disabled="disabled" id="Range4" runat="server" value="0" max="10" />
+        </div>
+
+
     </div>
+
+
+
+
+
+    <asp:Button ID="AppointmentB" runat="server" Text="Take Appointment" CssClass="btn btn-primary btn-block" OnClick="RedirectToAppointmentTaker" Font-Bold="true" />
+
 
 </asp:Content>

@@ -3,21 +3,23 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 
-        <title>Send Appointment Request</title>
+    <title>Send Appointment Request</title>
 
 </asp:Content>
 
 
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <h2 class="font-weight-bold">Click on this button to send an appointment request to the Doctor
 
-    <br /><br /><br /><br />
-    <h3><strong>Click on this button to send an appointment request to the Doctor</strong> </h3>
-   
-    <asp:Button runat ="server" OnClick="sendARequest" Text ="Send Request" Font-Bold ="true" />
+    </h2>
+    <hr />
 
-    <br /><br />
-    <asp:Label ID="Message" runat="server"></asp:Label>
-    <br /><br />
+
+    <asp:Button runat="server" OnClick="sendARequest" Text="Send Request" CssClass="btn btn-block btn-primary" Font-Bold="true" />
+    <br />
+    <asp:Label ID="Message" runat="server" class="alert alert-info d-block"></asp:Label>
+
+
 
 </asp:Content>

@@ -48,6 +48,8 @@ namespace DBProject
                 PPhone.Text     = phone;
                 PBirthDate.Text = birthDate;
                 PatientAge.Text = age.ToString();
+                formControlRange.Value= age.ToString();
+
                 PAddress.Text   = address;
                 PGender.Text    = gender;
             }

@@ -22,6 +22,15 @@ namespace DBProject {
         protected global::System.Web.UI.WebControls.Label PName;
         
         /// <summary>
+        /// PAddress control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label PAddress;
+        
+        /// <summary>
         /// PPhone control.
         /// </summary>
         /// <remarks>
@@ -40,15 +49,6 @@ namespace DBProject {
         protected global::System.Web.UI.WebControls.Label PBirthDate;
         
         /// <summary>
-        /// PatientAge control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label PatientAge;
-        
-        /// <summary>
         /// PGender control.
         /// </summary>
         /// <remarks>
@@ -58,12 +58,21 @@ namespace DBProject {
         protected global::System.Web.UI.WebControls.Label PGender;
         
         /// <summary>
-        /// PAddress control.
+        /// PatientAge control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label PAddress;
+        protected global::System.Web.UI.WebControls.Label PatientAge;
+        
+        /// <summary>
+        /// formControlRange control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputGenericControl formControlRange;
     }
 }

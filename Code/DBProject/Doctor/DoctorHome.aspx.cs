@@ -32,18 +32,31 @@ namespace doctor
                 Label1.Text = dt.Rows[0][1].ToString();
                 Label2.Text = dt.Rows[0][2].ToString();
                 Label3.Text = dt.Rows[0][3].ToString();
-                Label4.Text = dt.Rows[0][4].ToString();
+                Label4.Text = DateTime.Parse(dt.Rows[0][4].ToString()).ToShortDateString();
                 Label5.Text = dt.Rows[0][5].ToString();
                 Label6.Text = dt.Rows[0][6].ToString();
+
                 Label7.Text = dt.Rows[0][7].ToString();
+                formControlRange.Value = dt.Rows[0][7].ToString();
+
+
                 Label8.Text = dt.Rows[0][8].ToString();
+                Range1.Value= dt.Rows[0][8].ToString();
+
                 Label9.Text = dt.Rows[0][9].ToString();
+                Range2.Value = dt.Rows[0][9].ToString();
+
                 Label10.Text = dt.Rows[0][10].ToString();
+                Range3.Value = dt.Rows[0][10].ToString();
+
                 Label11.Text = dt.Rows[0][11].ToString();
                 Label12.Text = dt.Rows[0][12].ToString();
-                Label13.Text = dt.Rows[0][13].ToString();
-                Label14.Text = dt.Rows[0][14].ToString();
 
+                Label13.Text = dt.Rows[0][13].ToString();
+                Range4.Value = dt.Rows[0][13].ToString();
+
+                Label14.Text = dt.Rows[0][14].ToString();
+                Range5.Value = dt.Rows[0][14].ToString();
             }
         }
     }

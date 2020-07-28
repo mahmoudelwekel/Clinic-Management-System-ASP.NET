@@ -46,7 +46,7 @@ namespace DBProject {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView Appointment_view;
+        protected global::System.Web.UI.WebControls.Repeater Appointment_view;
         
         /// <summary>
         /// department_View control.
@@ -55,6 +55,6 @@ namespace DBProject {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView department_View;
+        protected global::System.Web.UI.WebControls.Repeater department_View;
     }
 }

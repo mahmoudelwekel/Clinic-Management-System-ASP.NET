@@ -36,11 +36,20 @@ namespace DBProject
 
 			Total_Doctors.Text = arrTable[0].Rows[0][0].ToString();
 			TotalPatients.Text = arrTable[1].Rows[0][0].ToString();
+
+            if (string.IsNullOrEmpty(arrTable[2].Rows[0][0].ToString()) || string.IsNullOrWhiteSpace(arrTable[2].Rows[0][0].ToString()))
+            {
+                TotalIncome.Text = "0";
+            }
+            else
+            {
 			TotalIncome.Text = arrTable[2].Rows[0][0].ToString();
 
+            }
 
+            
 
-			department_View.DataSource = arrTable[3];
+            department_View.DataSource = arrTable[3];
 			department_View.DataBind();
 
 

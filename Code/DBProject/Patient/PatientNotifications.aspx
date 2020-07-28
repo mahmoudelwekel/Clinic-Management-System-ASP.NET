@@ -16,20 +16,17 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
 
-    <h1><strong style="margin:37%">Notifications</strong></h1>
-    <br /><br />
 
-    <div style="margin-left: 70px">
+    <h2 class="font-weight-bold">Notifications
+    </h2>
+    <hr />
 
-    <asp:Label ID="Notify" runat="server"  Font-Bold="true" Font-Size="Medium"></asp:Label>
-    <br /><br />
+    <div class="alert alert-info d-block">
 
-    <asp:Label ID="NDoctor" runat="server"  Font-Bold="true" Font-Size="Medium"></asp:Label>
-    <br /><br />
-
-    <asp:Label ID="NTimings" runat="server"  Font-Bold="true" Font-Size="Medium"></asp:Label>
-    <br /><br />
-
+        <asp:Label ID="Notify" runat="server" Font-Bold="true"></asp:Label>
+        <asp:Label ID="NDoctor" runat="server" Font-Bold="true"></asp:Label>
+        <br />
+        <asp:Label ID="NTimings" runat="server" Font-Bold="true"></asp:Label>
     </div>
 
 </asp:Content>

@@ -68,3 +68,69 @@ D:\FAST\4th Semester (Spring 2017)\Database Systems (DB)\Github Project Code\Cod
 D:\FAST\4th Semester (Spring 2017)\Database Systems (DB)\Github Project Code\Code\DBProject\obj\Debug\Clinic Management System.csproj.CopyComplete
 D:\FAST\4th Semester (Spring 2017)\Database Systems (DB)\Github Project Code\Code\DBProject\obj\Debug\DBProject.dll
 D:\FAST\4th Semester (Spring 2017)\Database Systems (DB)\Github Project Code\Code\DBProject\obj\Debug\DBProject.pdb
+E:\WORK\Installers\softwares\medic\Clinic-Management-System-ASP.NET-master\Clinic-Management-System-ASP.NET-master\Code\DBProject\bin\ApplicationInsights.config
+E:\WORK\Installers\softwares\medic\Clinic-Management-System-ASP.NET-master\Clinic-Management-System-ASP.NET-master\Code\DBProject\bin\roslyn\csc.exe
+E:\WORK\Installers\softwares\medic\Clinic-Management-System-ASP.NET-master\Clinic-Management-System-ASP.NET-master\Code\DBProject\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\WORK\Installers\softwares\medic\Clinic-Management-System-ASP.NET-master\Clinic-Management-System-ASP.NET-master\Code\DBProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\WORK\Installers\softwares\medic\Clinic-Management-System-ASP.NET-master\Clinic-Management-System-ASP.NET-master\Code\DBProject\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\WORK\Installers\softwares\medic\Clinic-Management-System-ASP.NET-master\Clinic-Management-System-ASP.NET-master\Code\DBProject\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\WORK\Installers\softwares\medic\Clinic-Management-System-ASP.NET-master\Clinic-Management-System-ASP.NET-master\Code\DBProject\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\WORK\Installers\softwares\medic\Clinic-Management-System-ASP.NET-master\Clinic-Management-System-ASP.NET-master\Code\DBProject\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\WORK\Installers\softwares\medic\Clinic-Management-System-ASP.NET-master\Clinic-Management-System-ASP.NET-master\Code\DBProject\bin\roslyn\System.Collections.Immutable.dll
+E:\WORK\Installers\softwares\medic\Clinic-Management-System-ASP.NET-master\Clinic-Management-System-ASP.NET-master\Code\DBProject\bin\roslyn\System.Reflection.Metadata.dll
+E:\WORK\Installers\softwares\medic\Clinic-Management-System-ASP.NET-master\Clinic-Management-System-ASP.NET-master\Code\DBProject\bin\roslyn\vbc.exe
+E:\WORK\Installers\softwares\medic\Clinic-Management-System-ASP.NET-master\Clinic-Management-System-ASP.NET-master\Code\DBProject\bin\roslyn\VBCSCompiler.exe
+E:\WORK\Installers\softwares\medic\Clinic-Management-System-ASP.NET-master\Clinic-Management-System-ASP.NET-master\Code\DBProject\bin\roslyn\VBCSCompiler.exe.config
+E:\WORK\Installers\softwares\medic\Clinic-Management-System-ASP.NET-master\Clinic-Management-System-ASP.NET-master\Code\DBProject\bin\DBProject.dll.config
+E:\WORK\Installers\softwares\medic\Clinic-Management-System-ASP.NET-master\Clinic-Management-System-ASP.NET-master\Code\DBProject\bin\DBProject.dll
+E:\WORK\Installers\softwares\medic\Clinic-Management-System-ASP.NET-master\Clinic-Management-System-ASP.NET-master\Code\DBProject\bin\DBProject.pdb
+E:\WORK\Installers\softwares\medic\Clinic-Management-System-ASP.NET-master\Clinic-Management-System-ASP.NET-master\Code\DBProject\bin\Microsoft.AI.Agent.Intercept.dll
+E:\WORK\Installers\softwares\medic\Clinic-Management-System-ASP.NET-master\Clinic-Management-System-ASP.NET-master\Code\DBProject\bin\Microsoft.AI.DependencyCollector.dll
+E:\WORK\Installers\softwares\medic\Clinic-Management-System-ASP.NET-master\Clinic-Management-System-ASP.NET-master\Code\DBProject\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\WORK\Installers\softwares\medic\Clinic-Management-System-ASP.NET-master\Clinic-Management-System-ASP.NET-master\Code\DBProject\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\WORK\Installers\softwares\medic\Clinic-Management-System-ASP.NET-master\Clinic-Management-System-ASP.NET-master\Code\DBProject\bin\Microsoft.AI.Web.dll
+E:\WORK\Installers\softwares\medic\Clinic-Management-System-ASP.NET-master\Clinic-Management-System-ASP.NET-master\Code\DBProject\bin\Microsoft.AI.WindowsServer.dll
+E:\WORK\Installers\softwares\medic\Clinic-Management-System-ASP.NET-master\Clinic-Management-System-ASP.NET-master\Code\DBProject\bin\Microsoft.ApplicationInsights.dll
+E:\WORK\Installers\softwares\medic\Clinic-Management-System-ASP.NET-master\Clinic-Management-System-ASP.NET-master\Code\DBProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\WORK\Installers\softwares\medic\Clinic-Management-System-ASP.NET-master\Clinic-Management-System-ASP.NET-master\Code\DBProject\bin\Microsoft.AI.DependencyCollector.xml
+E:\WORK\Installers\softwares\medic\Clinic-Management-System-ASP.NET-master\Clinic-Management-System-ASP.NET-master\Code\DBProject\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\WORK\Installers\softwares\medic\Clinic-Management-System-ASP.NET-master\Clinic-Management-System-ASP.NET-master\Code\DBProject\bin\Microsoft.AI.Web.xml
+E:\WORK\Installers\softwares\medic\Clinic-Management-System-ASP.NET-master\Clinic-Management-System-ASP.NET-master\Code\DBProject\bin\Microsoft.AI.WindowsServer.xml
+E:\WORK\Installers\softwares\medic\Clinic-Management-System-ASP.NET-master\Clinic-Management-System-ASP.NET-master\Code\DBProject\bin\Microsoft.ApplicationInsights.xml
+E:\WORK\Installers\softwares\medic\Clinic-Management-System-ASP.NET-master\Clinic-Management-System-ASP.NET-master\Code\DBProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\WORK\Installers\softwares\medic\Clinic-Management-System-ASP.NET-master\Clinic-Management-System-ASP.NET-master\Code\DBProject\obj\Debug\DBProject.dll
+E:\WORK\Installers\softwares\medic\Clinic-Management-System-ASP.NET-master\Clinic-Management-System-ASP.NET-master\Code\DBProject\obj\Debug\DBProject.pdb
+E:\WORK\Installers\softwares\medic\Clinic-Management-System-ASP.NET-master\Clinic-Management-System-ASP.NET-master\Code\DBProject\obj\Debug\Clinic Management System.csprojResolveAssemblyReference.cache
+E:\WORK\Web Apps\Clinic\Clinic-Management-System\Code\DBProject\bin\ApplicationInsights.config
+E:\WORK\Web Apps\Clinic\Clinic-Management-System\Code\DBProject\bin\roslyn\csc.exe
+E:\WORK\Web Apps\Clinic\Clinic-Management-System\Code\DBProject\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\WORK\Web Apps\Clinic\Clinic-Management-System\Code\DBProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\WORK\Web Apps\Clinic\Clinic-Management-System\Code\DBProject\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\WORK\Web Apps\Clinic\Clinic-Management-System\Code\DBProject\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\WORK\Web Apps\Clinic\Clinic-Management-System\Code\DBProject\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\WORK\Web Apps\Clinic\Clinic-Management-System\Code\DBProject\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\WORK\Web Apps\Clinic\Clinic-Management-System\Code\DBProject\bin\roslyn\System.Collections.Immutable.dll
+E:\WORK\Web Apps\Clinic\Clinic-Management-System\Code\DBProject\bin\roslyn\System.Reflection.Metadata.dll
+E:\WORK\Web Apps\Clinic\Clinic-Management-System\Code\DBProject\bin\roslyn\vbc.exe
+E:\WORK\Web Apps\Clinic\Clinic-Management-System\Code\DBProject\bin\roslyn\VBCSCompiler.exe
+E:\WORK\Web Apps\Clinic\Clinic-Management-System\Code\DBProject\bin\roslyn\VBCSCompiler.exe.config
+E:\WORK\Web Apps\Clinic\Clinic-Management-System\Code\DBProject\bin\DBProject.dll.config
+E:\WORK\Web Apps\Clinic\Clinic-Management-System\Code\DBProject\bin\DBProject.dll
+E:\WORK\Web Apps\Clinic\Clinic-Management-System\Code\DBProject\bin\DBProject.pdb
+E:\WORK\Web Apps\Clinic\Clinic-Management-System\Code\DBProject\bin\Microsoft.AI.Agent.Intercept.dll
+E:\WORK\Web Apps\Clinic\Clinic-Management-System\Code\DBProject\bin\Microsoft.AI.DependencyCollector.dll
+E:\WORK\Web Apps\Clinic\Clinic-Management-System\Code\DBProject\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\WORK\Web Apps\Clinic\Clinic-Management-System\Code\DBProject\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\WORK\Web Apps\Clinic\Clinic-Management-System\Code\DBProject\bin\Microsoft.AI.Web.dll
+E:\WORK\Web Apps\Clinic\Clinic-Management-System\Code\DBProject\bin\Microsoft.AI.WindowsServer.dll
+E:\WORK\Web Apps\Clinic\Clinic-Management-System\Code\DBProject\bin\Microsoft.ApplicationInsights.dll
+E:\WORK\Web Apps\Clinic\Clinic-Management-System\Code\DBProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\WORK\Web Apps\Clinic\Clinic-Management-System\Code\DBProject\bin\Microsoft.AI.DependencyCollector.xml
+E:\WORK\Web Apps\Clinic\Clinic-Management-System\Code\DBProject\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\WORK\Web Apps\Clinic\Clinic-Management-System\Code\DBProject\bin\Microsoft.AI.Web.xml
+E:\WORK\Web Apps\Clinic\Clinic-Management-System\Code\DBProject\bin\Microsoft.AI.WindowsServer.xml
+E:\WORK\Web Apps\Clinic\Clinic-Management-System\Code\DBProject\bin\Microsoft.ApplicationInsights.xml
+E:\WORK\Web Apps\Clinic\Clinic-Management-System\Code\DBProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\WORK\Web Apps\Clinic\Clinic-Management-System\Code\DBProject\obj\Debug\Clinic Management System.csprojResolveAssemblyReference.cache
+E:\WORK\Web Apps\Clinic\Clinic-Management-System\Code\DBProject\obj\Debug\DBProject.dll
+E:\WORK\Web Apps\Clinic\Clinic-Management-System\Code\DBProject\obj\Debug\DBProject.pdb

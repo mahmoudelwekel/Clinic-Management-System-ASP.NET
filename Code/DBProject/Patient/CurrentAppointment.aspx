@@ -10,21 +10,16 @@
 
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <h2 class="font-weight-bold">Current Appointments</h2>
+    <hr />
 
 
-    <h1><strong style="margin:30%">Current Appointments</strong></h1>
-    <br /><br />
+    <div class="alert alert-info d-block">
 
-    <div style="margin-left: 70px">
-
-    <asp:Label ID="Appointment" runat="server"  Font-Bold="true" Font-Size="Medium"></asp:Label>
-    <br /><br />
-
-    <asp:Label ID="ADoctor" runat="server"  Font-Bold="true" Font-Size="Medium"></asp:Label>
-    <br /><br />
-
-    <asp:Label ID="ATimings" runat="server"  Font-Bold="true" Font-Size="Medium"></asp:Label>
-    <br /><br />
+        <asp:Label ID="Appointment" runat="server" Font-Bold="true" Font-Size="Medium"></asp:Label>
+        <asp:Label ID="ADoctor" runat="server" Font-Bold="true" Font-Size="Medium"></asp:Label>
+        <br />
+        <asp:Label ID="ATimings" runat="server" Font-Bold="true" Font-Size="Medium"></asp:Label>
 
     </div>
 
