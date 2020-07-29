@@ -30,7 +30,7 @@
 
     <div class="table-responsive">
 
-        <asp:GridView  EmptyDataText="No data available" ID="PAppointmentGrid" runat="server"
+        <asp:GridView ID="PAppointmentGrid" runat="server"
             GridLines="Vertical"
             AutoGenerateSelectButton="true" OnRowCommand="PAppointmentGrid_RowCommand" AutoGenerateColumns="true" EnableViewState="False"
             CssClass="table  table-hover table-striped table-bordered dataTable text-center "
